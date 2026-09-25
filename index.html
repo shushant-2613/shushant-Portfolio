@@ -1019,7 +1019,7 @@
         /* Nav */
         function go(id) { document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' }); document.getElementById('mobileMenu').classList.remove('active'); }
         function toggleMenu() { document.getElementById('mobileMenu').classList.toggle('active'); }
-        function downloadCV() { alert('📌 Setup:\n1. Upload resume PDF to Google Drive\n2. Share → Get public link\n3. Replace this alert() with:\n   window.open("https://drive.google.com/drive/folders/16yngYKrb5bOIwEXiIYDY2WSNg8qi-dv-?usp=sharing")'); }
+        function downloadCV() { window.open("https://drive.google.com/drive/folders/16yngYKrb5bOIwEXiIYDY2WSNg8qi-dv-?usp=sharing") }
 
         /* Lightbox modal handlers */
         function openLightbox(imageSrc) {
